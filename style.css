@@ -1,0 +1,106 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
+  height: 500px;
+  padding-bottom: 150px;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 45px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+span{
+  color: orange;
+}
+
+h3{
+  font-size: 19px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+p{
+  color: dimgray;
+  padding-top: 15px;
+}
+
+button{
+  padding: 10px 40px ;
+  margin: 5px 0;
+  color: white;
+  background:linear-gradient(45deg, lightsalmon, tomato) ;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+img{
+  width: 100%;
+}
+
+.half-width{
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+
+#top-banner{
+  background-image: url("https://programminghero1.github.io/developer-portfolio/images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+#big-dream{
+  background: url("https://programminghero1.github.io/developer-portfolio/images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#expreance-section{
+  background-image: url("https://programminghero1.github.io/developer-portfolio/images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#expreance-section div{
+  box-shadow: 5px 7px 40px gray;
+  height: 60%;
+  margin-top: 30px;
+}
+
+#full-stack{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#baby-developer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p{
+  text-align: center;
+}
